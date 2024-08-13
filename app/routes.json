@@ -1,11 +1,11 @@
 {
-    "default": "welcome",
+    "default": "simple_schema",
     "root": "app",
     
     "routes": [
         {
-            "title": "Welcome",
-            "view": "welcome"
+            "title": "Simple Schema",
+            "view": "simple_schema"
         },
         {
             "title": "About",

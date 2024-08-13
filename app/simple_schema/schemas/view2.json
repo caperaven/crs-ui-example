@@ -1,0 +1,14 @@
+{
+	"body": {
+		"elements": [
+			{
+				"element": "heading",
+				"heading": "View 2",
+				"attributes": {
+					"data-id": "My Heading"
+				},
+				"styles": "red"
+			}
+		]
+	}
+}

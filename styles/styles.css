@@ -2,6 +2,14 @@
 @import "/crs-framework/styles/lib/variables.css";
 @import "/crs-framework/styles/lib/buttons.css";
 
+@font-face {
+    font-family: crsfrw;
+    src: url("/crs-framework/resources/fonts/icons/crs-framework.woff?ydxlqn");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
 html, body {
     font-family: Arial, sans-serif;
     font-size: 16px;

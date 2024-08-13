@@ -2,6 +2,7 @@ import "/crs-framework/packages/crs-binding/crs-binding.js";
 import "/crs-framework/packages/crs-binding/classes/bindable-element.js";
 import "/crs-framework/packages/crs-binding/events/event-emitter.js";
 import "/crs-framework/packages/crs-binding/expressions/code-factories/if.js";
+import "/crs-framework/packages/crs-binding/managers/static-inflation-manager.js";
 
 import "/crs-framework/packages/crs-modules/crs-modules.js";
 import "/crs-framework/packages/crs-router/crs-router.js";

@@ -294,7 +294,6 @@ class ComboBox extends crs.classes.BindableElement {
     }
     this.#highlighted = this.#ul.querySelector("li:not(.hidden)");
     this.#highlighted.classList.add("highlighted");
-    \u00DF;
     await this.showOptions();
   }
   async clear() {
