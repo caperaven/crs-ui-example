@@ -1,0 +1,21 @@
+{
+	"templates": [
+		{
+			"id": "greeting",
+			"elements": [
+				{
+					"element": "heading",
+					"heading": "Hello Template!"
+				}
+			]
+		}
+	],
+	"body": {
+		"elements": [
+			{
+				"element": "template",
+				"template": "greeting"
+			}
+		]
+	}
+}

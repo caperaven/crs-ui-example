@@ -1,0 +1,15 @@
+{
+	"variables": {
+		"translations": {
+			"greeting": "Hello World!"
+		}
+	},
+	"body": {
+		"elements": [
+			{
+				"element": "heading",
+				"heading": "@translations.greeting"
+			}
+		]
+	}
+}

@@ -13,7 +13,7 @@ export class HeadingProvider extends BaseProvider {
         const parts = await super.process(item);
 
         return this.setValues(this.template, {
-            "__heading__": item.heading ?? "No heading",
+            "__heading__": await this.parser.parseStringValue(item.heading ?? "No heading"),
             "__attributes__": parts.attributes,
             "__styles__": parts.styles
         })
