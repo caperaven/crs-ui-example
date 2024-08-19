@@ -1,0 +1,18 @@
+{
+	"datasources": {
+		"my-list": [
+			"Item 1",
+			"Item 2",
+			"Item 3"
+		]
+	},
+	
+	"body": {
+		"elements": [
+			{
+				"element": "list",
+				"datasource": "my-list"
+			}
+		]
+	}
+}

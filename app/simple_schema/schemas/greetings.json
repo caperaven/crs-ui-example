@@ -1,0 +1,24 @@
+{
+	"greetings": {
+		"friendly": "Top of the morning to ya!",
+		"grumpy": "Go away, I'm sleeping.",
+		"formal": "Good day to you, sir."
+	},
+	
+	"body": {
+		"elements": [
+			{
+				"element": "heading",
+				"heading": "$g{friendly}"
+			},
+			{
+				"element": "heading",
+				"heading": "$g{grumpy}"
+			},
+			{
+				"element": "heading",
+				"heading": "$g{formal}"
+			}
+		]
+	}
+}

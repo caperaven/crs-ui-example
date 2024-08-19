@@ -1,6 +1,9 @@
 import { createSchemaLoader } from "/crs-framework/packages/crs-schema/crs-schema.js";
 import { HTMLParser } from "/crs-framework/packages/crs-schema/html/crs-html-parser.js";
 import { HeadingProvider } from "./schema_providers/heading-provider.js";
+import { ListProvider } from "./schema_providers/list-provider.js";
+import { DatasourceManager } from "./schema_managers/datasource-manager.js";
+import { GreetingsManager } from "./schema_managers/greetings-manager.js";
 
 // import components
 import "/crs-framework/components/combo-box/combo-box.js";
@@ -23,6 +26,9 @@ export default class WelcomeViewModel extends crs.classes.BindableElement {
     async connectedCallback() {
         this.#schemaLoader = await createSchemaLoader(new HTMLParser());
         this.#schemaLoader.register(HeadingProvider);
+        this.#schemaLoader.register(ListProvider);
+        this.#schemaLoader.register(DatasourceManager);
+        this.#schemaLoader.register(GreetingsManager);
 
         await super.connectedCallback();
     }
